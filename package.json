@@ -16,7 +16,7 @@
 	},
 	"scripts": {
 		"build": "wp-build",
-		"build:clean": "rm -rf build packages/**/build; echo 'Clean!'",
+		"build:clean": "rm -rf build packages/**/build packages/**/build-module; echo 'Clean!'",
 		"cleanall": "npm run build:clean; rm -rf node_modules package.lock",
 		"typecheck": "tsc --noEmit"
 	},
