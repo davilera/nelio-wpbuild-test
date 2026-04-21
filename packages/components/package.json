@@ -1,6 +1,8 @@
 {
 	"name": "@nelio/components",
 	"version": "1.0.0",
+	"main": "build/index.cjs",
+	"module": "build-module/index.mjs",
 	"private": true,
 	"wpScript": true
 }
