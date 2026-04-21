@@ -9,7 +9,10 @@
 		"name": "nelio",
 		"scriptGlobal": "nelio",
 		"packageNamespace": "nelio",
-		"handlePrefix": "nelio"
+		"handlePrefix": "nelio",
+		"pages": [
+			"nelio-dashboard"
+		]
 	},
 	"scripts": {
 		"build": "wp-build",
