@@ -1,0 +1,23 @@
+{
+	"name": "nelio",
+	"version": "1.0.0",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"wpPlugin": {
+		"name": "nelio",
+		"scriptGlobal": "nelio",
+		"packageNamespace": "nelio",
+		"handlePrefix": "nelio"
+	},
+	"scripts": {
+		"build": "wp-build",
+		"build:clean": "rm -rf build packages/**/build; echo 'Clean!'",
+		"cleanall": "yarn run build:clean; rm -rf node_modules package.lock",
+		"typecheck": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"@wordpress/build": "^0.12.0"
+	}
+}
