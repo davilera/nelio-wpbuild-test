@@ -17,7 +17,7 @@
 	"scripts": {
 		"build": "wp-build",
 		"build:clean": "rm -rf build packages/**/build; echo 'Clean!'",
-		"cleanall": "yarn run build:clean; rm -rf node_modules package.lock",
+		"cleanall": "npm run build:clean; rm -rf node_modules package.lock",
 		"typecheck": "tsc --noEmit"
 	},
 	"devDependencies": {
