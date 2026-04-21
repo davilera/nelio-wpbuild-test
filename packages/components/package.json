@@ -4,5 +4,9 @@
 	"main": "build/index.cjs",
 	"module": "build-module/index.mjs",
 	"private": true,
-	"wpScript": true
+	"wpScript": true,
+	"dependencies": {
+		"@nelio/utils": "*",
+		"@wordpress/components": "*"
+	}
 }
