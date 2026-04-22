@@ -11,7 +11,8 @@
 		"packageNamespace": "nelio",
 		"handlePrefix": "nelio",
 		"pages": [
-			"nelio-dashboard"
+			"nelio-dashboard",
+			"nelio-main"
 		]
 	},
 	"scripts": {
@@ -22,7 +23,8 @@
 	},
 	"devDependencies": {
 		"@wordpress/babel-preset-default": "^8.44.0",
-		"@wordpress/build": "^0.12.0",
+		"@wordpress/boot": "^0.3.0",
+		"@wordpress/build": "^0.9.0",
 		"@wordpress/components": "^32.6.0",
 		"typescript": "^6.0.3"
 	}

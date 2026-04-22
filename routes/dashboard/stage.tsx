@@ -1,1 +1,1 @@
-export const stage = () => <p>Hello World</p>;
+export const stage = () => <p>Hello World [Dashboard]</p>;

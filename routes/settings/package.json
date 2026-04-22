@@ -1,0 +1,9 @@
+{
+	"route": {
+		"page": [
+			"nelio-dashboard",
+			"nelio-main"
+		],
+		"path": "/settings"
+	}
+}

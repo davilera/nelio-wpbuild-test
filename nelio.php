@@ -27,6 +27,15 @@ function nelio_register_pages() {
 		'dashicons-hammer',
 		1
 	);
+
+	add_submenu_page(
+		'nelio-dashboard-wp-admin',
+		'Main',
+		'Main',
+		'manage_options',
+		'nelio-main-wp-admin',
+		'nelio_nelio_main_wp_admin_render_page'
+	);
 }
 
 function nelio_init() {
