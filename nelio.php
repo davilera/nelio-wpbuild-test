@@ -33,8 +33,8 @@ function nelio_register_pages() {
 		'Main',
 		'Main',
 		'manage_options',
-		'nelio-main-wp-admin',
-		'nelio_nelio_main_wp_admin_render_page'
+		'nelio-main',
+		'nelio_nelio_main_render_page'
 	);
 }
 
